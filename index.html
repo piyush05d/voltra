@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <title>Electric rides for every road | Voltra</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@500;600;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header class="nav">
+      <div class="wrap">
+         <a href="index.html" class="logo">Volt<span>ra</span></a>
+         <button class="burger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+         <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="vehicles.html">Vehicles</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Become a Dealer</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </div>
+   </header>
+
+   <section class="hero" aria-label="Featured">
+      <div class="slide s1">
+         <div class="wrap">
+            <div>
+               <h1>Ride silent. Ride electric.</h1>
+               <p>Scooters that cover 80 km on a single charge and cost a fraction of petrol to run.</p><a class="btn"
+                  href="vehicles.html">Explore vehicles</a><a class="btn ghost" href="contact.html">Book a test ride</a>
+            </div>
+         </div>
+      </div>
+      <div class="slide s2">
+         <div class="wrap">
+            <div>
+               <h1>Built for city streets.</h1>
+               <p>Light, quick and easy to park. Skip the fuel queue for good.</p><a class="btn"
+                  href="vehicles.html#scooter">See scooters</a>
+            </div>
+         </div>
+      </div>
+      <div class="slide s3">
+         <div class="wrap">
+            <div>
+               <h1>Work harder. Spend less.</h1>
+               <p>Electric 3 wheelers that carry passengers and cargo with low running cost.</p><a class="btn"
+                  href="vehicles.html#three">See 3 wheelers</a>
+            </div>
+         </div>
+      </div>
+      <button class="arrow prev" aria-label="Previous">&#10094;</button><button class="arrow next"
+         aria-label="Next">&#10095;</button>
+      <div class="dots"></div>
+   </section>
+   <div class="stats">
+      <div class="wrap">
+         <div><b>80 km</b>Range per charge</div>
+         <div><b>85 km/h</b>Top speed</div>
+         <div><b>120+</b>Dealers</div>
+         <div><b>3 yr</b>Battery warranty</div>
+      </div>
+   </div>
+   <section>
+      <div class="wrap">
+         <h2>Shop by category</h2>
+         <p class="lead">Pick the ride that fits how you move.</p>
+         <div class="grid">
+            <a class="cat c1" href="vehicles.html#bicycle">
+               <div>
+                  <img src="images/cycle.webp" alt="">
+                  <h3 class="">Bicycle</h3><small>Pedal assist, zero effort</small>
+               </div>
+            </a>
+            <a class="cat c2" href="vehicles.html#scooter">
+               <div>
+                  <img src="images/scoter.webp" alt="">
+                  <h3>Scooter</h3><small>Daily city commute</small>
+               </div>
+            </a>
+            <a class="cat c3" href="vehicles.html#bike">
+               <div>
+                  <img src="images/bike.webp" alt="">
+                  <h3>Bike</h3><small>Power and pickup</small>
+               </div>
+            </a>
+            <a class="cat c4" href="vehicles.html#three">
+               <div>
+                  <img src="images/three.webp" alt="">
+                  <h3>3 Wheeler</h3><small>Passenger and cargo</small>
+               </div>
+            </a>
+         </div>
+      </div>
+   </section>
+   <section class="picker" id="picker">
+      <div class="wrap">
+         <h2>Choose your Voltra</h2>
+         <div class="tabs" role="tablist"><button class="on" data-set="two">2 Wheeler</button><button data-set="three">3
+               Wheeler</button></div>
+         <h3 class="pname"></h3>
+         <div class="stage"><button class="round" id="pprev" aria-label="Previous model">&#10094;</button>
+            <div class="stage-img">
+               <img  alt="">
+               <span class="miss" hidden></span></div>
+            <button class="round" id="pnext" aria-label="Next model">&#10095;</button>
+         </div>
+         <div class="pspecs">
+            <div><small>Range</small><b id="pr"></b></div>
+            <div><small>Top speed</small><b id="ps"></b></div>
+            <div><small>Acceleration</small><b id="pa"></b></div>
+            <div><small>Starting from</small><b id="pp"></b></div><a class="btn" href="vehicles.html">Explore</a>
+         </div>
+         <div class="colors"></div>
+         <div class="bars"></div>
+      </div>
+   </section>
+   <section class="sand">
+      <div class="wrap split">
+         <div class="ph"><img  class="qwe" src="images/biker.avif" alt=""></div>
+         <div>
+            <h2>Why riders switch to Voltra</h2>
+            <p class="lead">Running cost drops to about 25 paise per km, and there is almost no engine servicing to pay
+               for.</p><a class="btn" href="about.html">Our story</a>
+         </div>
+      </div>
+   </section>
+   <section>
+      <div class="wrap">
+         <h2>Popular right now</h2>
+         <p class="lead">Our most booked models this month.</p>
+         <div class="grid">
+            <div class="card w">
+               <h3>Voltra FH Pro</h3>
+               <p>Everyday scooter with disc brakes.</p>
+               <div class="specs">
+                  <div><b>75-80 km</b>Range</div>
+                  <div><b>85 km/h</b>Top speed</div>
+               </div>
+               <div class="price">From ₹60,000</div><a class="btn" href="contact.html">Enquire</a>
+            </div>
+            <div class="card w">
+               <h3>Voltra Metro</h3>
+               <p>Compact and easy to park.</p>
+               <div class="specs">
+                  <div><b>60 km</b>Range</div>
+                  <div><b>55 km/h</b>Top speed</div>
+               </div>
+               <div class="price">From ₹48,000</div><a class="btn" href="contact.html">Enquire</a>
+            </div>
+            <div class="card w">
+               <h3>Voltra Cargo 3W</h3>
+               <p>Strong frame for loads.</p>
+               <div class="specs">
+                  <div><b>100 km</b>Range</div>
+                  <div><b>45 km/h</b>Top speed</div>
+               </div>
+               <div class="price">From ₹1,35,000</div><a class="btn" href="contact.html">Enquire</a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="wrap">
+         <div class="grid">
+            <div>
+               <h3>Voltra</h3>
+               <p>Electric rides built for Indian roads.</p>
+            </div>
+            <div>
+               <h3>Vehicles</h3>
+               <ul>
+                  <li><a href="vehicles.html#bicycle">Bicycles</a></li>
+                  <li><a href="vehicles.html#scooter">Scooters</a></li>
+                  <li><a href="vehicles.html#bike">Bikes</a></li>
+                  <li><a href="vehicles.html#three">3 Wheelers</a></li>
+               </ul>
+            </div>
+            <div>
+               <h3>Company</h3>
+               <ul>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Dealers</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+            <div>
+               <h3>Reach us</h3>
+               <p>hello@voltra.example<br>+91 98765 43210</p>
+            </div>
+         </div>
+         <p class="copy">&copy; 2026 Voltra Mobility. All rights reserved.</p>
+      </div>
+   </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>
